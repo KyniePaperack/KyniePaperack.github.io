@@ -1,7 +1,14 @@
+body {
+    background-color: #4404B4;
+}
+
 h1 {
     font-family: Helvetica, Calibri, Arial, sans-serif;
     text-align: center;
     font-size: 20vh;
-    padding-top: 30vh;
-    padding-bottom: 30vh;
+    color: #F0F0F0;
+    padding: 10% 0;
+    height: 100vh;
+    font-kerning: normal;
+    letter-spacing: -10px;
 }
