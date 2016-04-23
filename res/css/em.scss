@@ -1,0 +1,37 @@
+@import "normalize.css";
+
+$bicycletires: #3E4147;
+$sunriseglow:  #FFFEDF;
+$eiffelcoffee: #DFBA69;
+$abysmalwalls: #5A2E2E;
+$lightdeath:   #2A2C31;
+
+body {
+    font-size: 1.1rem;
+    font-family:Montserrat;
+    color: $bicycletires;
+    width: 60vw;
+    max-width: 720px;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+}
+
+#title {
+    margin-bottom: 0;
+    font-size: 4rem;
+    letter-spacing: 0.03em;
+    margin-top: 5vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Abril Fatface", serif;
+}
+
+internal {
+    color: $eiffelcoffee;
+}
+
+p {
+    text-align: justify;
+}
+
