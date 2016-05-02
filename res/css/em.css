@@ -2,30 +2,136 @@
 /* line 9, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
 body {
   font-size: 1.1rem;
-  font-family: Montserrat;
+  font-family: 'Roboto Slab',serif;
+  font-weight: 400;
   color: #3E4147;
-  width: 60vw;
+  width: 75vw;
   max-width: 720px;
   margin: 0 auto;
-  margin-bottom: 5vh; }
+  margin-bottom: 5vh;
+  letter-spacing: -0.7px;
+  line-height: 95%; }
 
-/* line 19, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+/* line 22, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
 #title {
   margin-bottom: 0;
   font-size: 4rem;
   letter-spacing: 0.03em;
   margin-top: 5vh; }
 
-/* line 26, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Abril Fatface", serif; }
-
-/* line 30, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
-internal {
-  color: #DFBA69; }
+/* line 29, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+h1, h2, h3, h4, dt, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700; }
 
 /* line 34, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+internal {
+  color: #5A2E2E;
+  font-size: 0.8rem; }
+
+/* line 39, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
 p {
-  text-align: justify; }
+  text-align: justify;
+  margin: 0;
+  padding-bottom: 2vh; }
+
+/* line 45, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+figure {
+  text-align: center; }
+  /* line 47, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+  figure img {
+    width: 30vw;
+    min-width: 320px; }
+
+/* line 53, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+figcaption {
+  font-size: 0.6rem;
+  text-align: center; }
+
+/* line 58, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+a {
+  text-decoration: none;
+  color: #e17223;
+  transition: .4s;
+  -webkit-transition: .4s; }
+  /* line 63, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+  a:hover {
+    text-decoration: none;
+    color: #DFBA69;
+    transition: .4s;
+    -webkit-transition: .4s; }
+
+/* line 71, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+.large-img {
+  width: 40vw;
+  min-width: 560px; }
+
+/* line 76, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+.tiny {
+  font-size: 0.6rem; }
+
+/* line 80, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+dt {
+  margin-left: 2vw; }
+
+/* line 85, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+dd {
+  margin-left: 4vw; }
+
+/* line 89, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+#tcs-icons figure {
+  display: inline-block;
+  width: 28%;
+  margin: 0.3333%;
+  padding: 2%;
+  background-color: #c0c0c0; }
+  /* line 96, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+  #tcs-icons figure img {
+    width: 100%;
+    min-width: 0; }
+  /* line 101, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+  #tcs-icons figure figcaption p {
+    text-align: center; }
+
+/* line 107, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+#maintcs margin {
+  left: auto;
+  right: auto; }
+
+/* line 113, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+#dirtyworkaroundimsosorry {
+  visibility: hidden; }
+
+/* line 117, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+#tcs-icons .refreshed {
+  background-color: #eee; }
+
+/* line 121, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+h2 {
+  margin-bottom: 1vh;
+  margin-left: -2.3vw; }
+
+/* line 126, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+.nb {
+  margin-bottom: 0;
+  margin-top: 0; }
+
+/* line 131, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+timestamp {
+  font-family: 'Arial Rounded MS', sans-serif;
+  display: inline;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #222;
+  color: #646464;
+  padding: 1vw; }
+
+/* line 141, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+.exit {
+  text-align: right; }
+
+/* line 145, C:/Users/Renz/Documents/GitHub/KyniePaperack.github.io/res/css/em.scss */
+h1 {
+  line-height: 200%; }
 
 /*# sourceMappingURL=em.css.map */

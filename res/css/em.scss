@@ -8,12 +8,15 @@ $lightdeath:   #2A2C31;
 
 body {
     font-size: 1.1rem;
-    font-family:Montserrat;
+    font-family: 'Roboto Slab',serif;
+    font-weight: 400;
     color: $bicycletires;
-    width: 60vw;
+    width: 75vw;
     max-width: 720px;
     margin: 0 auto;
     margin-bottom: 5vh;
+    letter-spacing: -0.7px;
+    line-height: 95%;
 }
 
 #title {
@@ -24,14 +27,121 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Abril Fatface", serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
 }
 
 internal {
-    color: $eiffelcoffee;
+    color: $abysmalwalls;
+    font-size: 0.8rem;
 }
 
 p {
     text-align: justify;
+    margin: 0;
+    padding-bottom: 2vh;
 }
 
+figure {
+    text-align: center;
+    img {
+        width: 30vw;
+        min-width: 320px;
+    }
+}
+
+figcaption {
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+a {
+    text-decoration:none;
+    color: lighten(saddlebrown,20);
+    transition: .4s;
+    -webkit-transition: .4s;
+    &:hover{
+        text-decoration: none;
+        color: $eiffelcoffee;
+        transition: .4s;
+        -webkit-transition: .4s;
+    }
+}
+
+.large-img {
+    width: 40vw ;
+    min-width: 560px;
+}
+
+.tiny {
+    font-size: 0.6rem;
+}
+
+dt {
+    @extend h4;
+    margin-left: 2vw;
+}
+
+dd {
+    margin-left: 4vw;
+}
+
+#tcs-icons figure {
+    display: inline-block;
+    width: 28%;
+    margin: 0.3333%;
+    padding: 2%;
+    background-color: #c0c0c0;
+    
+    img {
+        width: 100%;
+        min-width: 0;
+    }
+    
+    figcaption  p {
+        text-align: center;
+    }
+}
+
+#maintcs {
+    margin {
+        left: auto;
+        right: auto;
+    }
+}
+    
+#dirtyworkaroundimsosorry {
+    visibility: hidden;
+}
+
+#tcs-icons .refreshed {
+    background-color: #eee;
+}
+
+h2 {
+    margin-bottom: 1vh;
+    margin-left: -2.3vw;
+}
+
+.nb {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+timestamp {
+    font-family: 'Arial Rounded MS', sans-serif;
+    display: inline;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #222;
+    color: #646464;
+    padding: 1vw;
+}
+
+.exit {
+    text-align: right;
+}
+
+h1 {
+    line-height: 200%;
+}
